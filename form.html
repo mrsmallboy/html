@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form action="">
+      <fieldset>
+        <legend>credientials</legend>
+        <label for="uname">Name</label>
+        <input type="text" placeholder="enter you name" id="uname" required />
+        <br />
+        <br />
+        <label for="uemail">email</label>
+        <input
+          type="email"
+          placeholder="enter you email"
+          id="uemail"
+          required
+        />
+        <br />
+        <br />
+        <label for="upass">Password</label>
+        <input
+          type="password"
+          placeholder="enter you password"
+          name=""
+          id="upass"
+          minlength="10"
+          required
+        />
+      </fieldset>
+
+      <fieldset>
+        <legend>personal info</legend>
+        <label for="uage">age</label>
+        <input type="number" placeholder="enter you age" name="" id="uage" />
+        <br />
+        <br />
+
+        <label for="uphno"> phno</label>
+        <input type="number" placeholder="enter you number" id="uphno" />
+      </fieldset>
+      <fieldset>
+        <legend>timing</legend>
+        <label for="udate">date</label>
+        <input type="date" name="" id="udate" />
+        <br />
+        <br />
+        <label for="utime">Time</label>
+        <input type="time" name="" id="utime" />
+        <br /><br />
+        <label for="uweek">Week</label>
+        <input type="date" name="" id="uweek" />
+        <br /><br />
+        <label for="umonth">Month</label>
+        <input type="date" name="" id="umonth" />
+      </fieldset>
+      <fieldset>
+        <legend>CheckBoxRadioButtton</legend>
+
+        <label for="">Subject</label><br /><br />
+        <input type="checkbox" name="sub1" id="Html" />
+        <label for="Html">html</label>
+        <input type="checkbox" name="sub2" id="css" />
+        <label for="css">css</label>
+        <input type="checkbox" name="sub3" id="javascript" />
+        <label for="javascript">javascript</label>
+        <br /><br />
+        <label for="">gender</label>
+        <br /><br />
+        <input type="radio" name="val1" id="male" />
+        <label for="male">male</label>
+
+        <br /><br />
+        <input type="radio" name="val1" id="female" />
+        <label for="female">female</label>
+
+        <br /><br />
+        <input type="radio" name="val1" id="others" />
+        <label for="others">others</label>
+        <br /><br />
+        
+      </fieldset>
+      <fieldset>
+        <legend>button</legend>
+        <label for="">volume of the music</label>
+        <input type="range" name="volume" min="0" max="100" />
+        <input type="reset" value="reset" />
+        <br><br>
+        <input type="submit" value="signup" />
+      </fieldset>
+    </form>
+  </body>
+</html>
